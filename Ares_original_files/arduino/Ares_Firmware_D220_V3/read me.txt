@@ -1,0 +1,12 @@
+EasyArts Ares 3D printer
+
+change from Marlin
+
+Pin.h
+Configuration.h
+Configuration_adv.h
+ConfigurationStore.cpp
+Marlin_main.cpp
+language.h
+
+all the change noted with 'easyarts'
