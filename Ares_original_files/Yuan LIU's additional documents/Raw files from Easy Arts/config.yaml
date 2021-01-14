@@ -1,0 +1,121 @@
+accessControl:
+  salt: WuZ9tlMyfQVt2wgkkATNqX0Lml9nt2uh
+api:
+  allowCrossOrigin: true
+  key: ''
+appearance:
+  name: Ares
+cura:
+  config: /home/pi/Cura/CuraConfig.ini
+  enabled: true
+  path: /home/pi/Cura/cura.sh
+feature:
+  keyboardControl: false
+gcodeViewer: {}
+plugins:
+  cura:
+    _config_version: null
+    cura_engine: /home/pi/Cura/CuraEngine/build/CuraEngine
+    debug_logging: false
+    default_profile: null
+  discovery:
+    _config_version: null
+    httpPassword: null
+    httpUsername: null
+    model:
+      description: null
+      name: null
+      number: null
+      serial: null
+      url: null
+      vendor: null
+      vendorUrl: null
+    pathPrefix: null
+    publicHost: null
+    publicPort: null
+    upnpUuid: ffddb842-474c-4c81-9132-7b72e741af23
+    zeroConf: []
+  softwareupdate:
+    _config_version: 4
+    checks:
+      octoprint:
+        checkout_folder: /home/pi/OctoPrint
+        type: github_release
+printerParameters: {}
+printerProfiles:
+  defaultProfile:
+    axes:
+      e:
+        inverted: false
+        speed: 300
+      x:
+        inverted: false
+        speed: 6000
+      y:
+        inverted: false
+        speed: 6000
+      z:
+        inverted: false
+        speed: 200
+    color: red
+    extruder:
+      count: 1
+      nozzleDiameter: 0.4
+      offsets:
+      - - 0.0
+        - 0.0
+    heatedBed: false
+    id: _default
+    model: Generic RepRap Printer
+    name: Ares
+    volume:
+      depth: 180.0
+      formFactor: circular
+      height: 175.0
+      origin: center
+      width: 180.0
+serial:
+  autoconnect: true
+  baudrate: 250000
+  port: /dev/ttyACM0
+  timeout:
+    sdStatus: 5.0
+server:
+  commands: {}
+  firstRun: false
+  secretKey: ql2EswLSOVKBvyic0CWTLcp2Suvr0QMB
+slicing:
+  defaultProfiles:
+    cura: Z.05_bottom.4_brim_center_0
+system:
+  actions:
+  - action: shutdown
+    command: sudo shutdown -h now
+    confirm: You are about to shutdown the system.
+    name: Shutdown
+  - action: reboot
+    command: sudo shutdown -r now
+    confirm: You are about to reboot the system
+    name: Reboot
+  - action: restart
+    command: sudo service octoprint restart
+    confirm: You are about to restart OctoPrint
+    name: Restart OctoPrint
+temperature:
+  cutoff: 200
+  profiles:
+  - bed: 100
+    extruder: 210
+    name: ABS
+  - bed: '10'
+    extruder: '200'
+    name: PLA
+webcam:
+  ffmpeg: /usr/bin/avconv
+  snapshot: http://localhost:8080/?action=snapshot
+  stream: /webcam/?action=stream
+  timelapse:
+    fps: 25
+    options: {}
+    postRoll: 0
+    type: zchange

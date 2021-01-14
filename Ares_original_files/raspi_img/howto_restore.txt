@@ -1,0 +1,30 @@
+######################
+### Extract
+######################
+
+### M$ Windows
+Install 7zip from 7zip.org
+Extract with gui
+
+### Fedora
+yum install p7zip
+7za e octopi1-2-9-16gsmall0225.7z.001
+
+### Debian 
+sudo apt-get install p7zip
+7za e octopi1-2-9-16gsmall0225.7z.001
+
+
+#######################
+###Restore to sdcard
+######################
+
+### M$ Window
+install win32diskimager at https://sourceforge.net/projects/win32diskimager/
+Use gui to push img file to sdcard
+
+
+### Unix (or direct in raspi)
+
+dd if=/octopi1-2-9-16gsmall0225 of=/dev/sdX
+### sdX can be given following #fdisk -l 
