@@ -1,0 +1,17 @@
+
+sudo nano /home/pi/Ares/wifi.conf
+###############
+
+network={
+   scan_ssid=1
+   ssid="THESSID"
+   psk="THEPSW"
+   proto=RSN
+   key_mgmt=WPA-PSK
+   pairwise=CCMP
+   auth_alg=OPEN
+   bssid=XX:XX:XX:XX:XX:XX # MAC address of access point : sudo iwlist wlan0 scanning essid THESSID
+}
+
+
+

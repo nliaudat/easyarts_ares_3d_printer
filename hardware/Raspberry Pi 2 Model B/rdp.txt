@@ -1,0 +1,3 @@
+“username: pi” and “password: raspberry”
+
+The default logon screen is english keyboard

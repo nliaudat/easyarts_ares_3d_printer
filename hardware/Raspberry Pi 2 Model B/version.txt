@@ -1,0 +1,26 @@
+cat /proc/cpuinfo
+
+Hardware : BCM2709
+Revision : a21041
+
+
+=> a21041 	Q1 2015 	2 Model B 	1.1 	1 GB 
+
+
+Raspberry Pi 2 Model B
+
+Announced on 2nd Feb 2015 (full announcement from the Raspberry Pi Foundation). The Raspberry Pi 2 retains the same US$35 price point of the model B+.
+Raspberry Pi 2 Model B
+
+The Raspberry Pi 2 features:
+
+    Broadcom BCM2836 SoC, with quad-core ARM Cortex-A7 900 MHz processor
+    VideoCore IV dual-core 250 MHz GPU
+    1 GB SDRAM - shared by the GPU and CPU
+    MicroSD card slot for boot and storage
+    4 x USB 2.0 ports (via on-board 5 port hub)
+    RJ45 10/100 MBit/s Ethernet port
+    HDMI and Composite video, audio through TRRS jack
+    40 pin GPIO Interface connector
+    CSI (camera) and DSI (display) connectors
+    4 squarely positioned mounting holes

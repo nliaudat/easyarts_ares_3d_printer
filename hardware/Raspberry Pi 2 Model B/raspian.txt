@@ -1,0 +1,4 @@
+Raspian 8 installed
++ octoprint 1.2.9
++ freelss
++ cura
