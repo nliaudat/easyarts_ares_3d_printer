@@ -1,4 +1,4 @@
-EE-SX671-WR EE-SX671-WR OMRON NPN output| OMRON Industrial Automation
+EE-SX671-WR OMRON NPN output| OMRON Industrial Automation
 
 Terminal Arrangement :
 
