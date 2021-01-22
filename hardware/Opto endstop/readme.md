@@ -7,3 +7,4 @@ Pink (2) L
 Blue (3) GND (0 V)
 Black (4) OUTPUT
 
+
